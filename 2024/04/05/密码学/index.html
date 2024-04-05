@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"miorebo.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一次网络安全的密码学作业，前两道题算是秒杀了。最后一道用了一个小时，毕竟是七张表，边猜边试。 1.一句话使用替换密码进行加密后得到如下密文:ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd进行密码分析回答如下问题:上述加密用了什么替换?将密文解密出明文，调整空格，写出可阅读的明文形式。 解答：首先，创建文本文件,输入待解">
+    <meta name="description" content="一次网络安全的密码学作业，前两道题比较简单。第三道稍微难一点，需要边猜边试。 1.一句话使用替换密码进行加密后得到如下密文:ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd进行密码分析回答如下问题:上述加密用了什么替换?将密文解密出明文，调整空格，写出可阅读的明文形式。 解答：首先，创建文本文件,输入待解密的信息分析文本">
 <meta property="og:type" content="article">
 <meta property="og:title" content="密码学">
 <meta property="og:url" content="https://miorebo.github.io/2024/04/05/%E5%AF%86%E7%A0%81%E5%AD%A6/index.html">
 <meta property="og:site_name" content="Rebo&#39;s blog">
-<meta property="og:description" content="一次网络安全的密码学作业，前两道题算是秒杀了。最后一道用了一个小时，毕竟是七张表，边猜边试。 1.一句话使用替换密码进行加密后得到如下密文:ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd进行密码分析回答如下问题:上述加密用了什么替换?将密文解密出明文，调整空格，写出可阅读的明文形式。 解答：首先，创建文本文件,输入待解">
+<meta property="og:description" content="一次网络安全的密码学作业，前两道题比较简单。第三道稍微难一点，需要边猜边试。 1.一句话使用替换密码进行加密后得到如下密文:ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd进行密码分析回答如下问题:上述加密用了什么替换?将密文解密出明文，调整空格，写出可阅读的明文形式。 解答：首先，创建文本文件,输入待解密的信息分析文本">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://miorebo.github.io/images/2.1.jpg">
 <meta property="og:image" content="https://miorebo.github.io/images/2.2.png">
@@ -44,7 +44,7 @@
 <meta property="og:image" content="https://miorebo.github.io/images/2.16.png">
 <meta property="og:image" content="https://miorebo.github.io/images/2.17.png">
 <meta property="article:published_time" content="2024-04-05T11:04:33.000Z">
-<meta property="article:modified_time" content="2024-04-05T11:27:52.109Z">
+<meta property="article:modified_time" content="2024-04-05T11:49:05.329Z">
 <meta property="article:author" content="rebo">
 <meta property="article:tag" content="数据科学，前端开发，网络安全">
 <meta name="twitter:card" content="summary">
@@ -216,7 +216,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-04-05 19:04:33 / 修改时间：19:27:52" itemprop="dateCreated datePublished" datetime="2024-04-05T19:04:33+08:00">2024-04-05</time>
+      <time title="创建时间：2024-04-05 19:04:33 / 修改时间：19:49:05" itemprop="dateCreated datePublished" datetime="2024-04-05T19:04:33+08:00">2024-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -237,7 +237,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>一次网络安全的密码学作业，前两道题算是秒杀了。<br>最后一道用了一个小时，毕竟是七张表，边猜边试。</p>
+    <div class="post-body" itemprop="articleBody"><p>一次网络安全的密码学作业，前两道题比较简单。<br>第三道稍微难一点，需要边猜边试。</p>
 <p>1.一句话使用替换密码进行加密后得到如下密文:<br>ftqdq uezae gotft uzsme msdqm ffmxq zfiuf tagfs dqmfi uxxba iqd<br>进行密码分析回答如下问题:<br>上述加密用了什么替换?<br>将密文解密出明文，调整空格，写出可阅读的明文形式。</p>
 <p><strong>解答：</strong><br>首先，创建文本文件,输入待解密的信息<br><img src="/images/2.1.jpg" alt="图片" title="图片"><br>分析文本<br><img src="/images/2.2.png" alt="图片" title="图片"><br>重合指数接近0.068，故应为单表替换加密<br>接下来使用TryAllTranslators来尝试解密<br><img src="/images/2.3.png" alt="图片" title="图片"><br>解出了有意义的结果<br>there is no such thing as a great talent without great will power</p>
 <p>2.已知密文“ssthiihttrefissaensigmtncuoforbyueerscirrotycues” 是由 Transposition 变换而得. 加密密钥(排列)是 𝜋 &#x3D; (6 4 1 2 3 5 8 7).<br>逆排列（解密密钥）是什么?<br>将密文解密出明文，调整空格，写出可阅读的明文形式。</p>
