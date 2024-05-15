@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rebo的博客</title>
+  
+  
+  <link href="https://miorebo.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://miorebo.github.io/"/>
+  <updated>2024-04-05T12:25:24.994Z</updated>
+  <id>https://miorebo.github.io/</id>
+  
+  <author>
+    <name>rebo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宇宙学拾遗</title>
+    <link href="https://miorebo.github.io/2024/04/05/%E5%AE%87%E5%AE%99%E5%AD%A6%E6%8B%BE%E9%81%97/"/>
+    <id>https://miorebo.github.io/2024/04/05/%E5%AE%87%E5%AE%99%E5%AD%A6%E6%8B%BE%E9%81%97/</id>
+    <published>2024-04-05T02:43:28.000Z</published>
+    <updated>2024-04-05T12:25:24.994Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>美丽有两种：</strong><br><strong>一是深刻又动人的方程，</strong><br><strong>一是你泛着倦意淡淡的笑容。</strong><br><strong>——未名bbs ukim《Heroes in my heart》</strong></p></blockquote><p>&emsp;&emsp;我们知道，在<strong>宇宙学原理</strong>的假设之下，宇宙的形状有三种可能，开闭或平坦。其对应的<strong>时空度规</strong>也有三种可能：<br>&emsp;&emsp;在平坦宇宙中，度规为：<br><img src="/images/1.1.svg" alt="图片" title="度规"><br>&emsp;&emsp;在这个度规的作用下，宇宙是<strong>无限大且平坦</strong>的，也即曲率为零。<br>&emsp;&emsp;相应的，也有开宇宙与闭宇宙对应的度规，他们分别是：<br><img src="/images/1.2.svg" alt="图片" title="度规"><br><img src="/images/1.3.svg" alt="图片" title="度规"><br>&emsp;&emsp;这两个<strong>度规</strong>分别决定了两种宇宙模型的<strong>性质</strong>。开宇宙模型对应的性质是宇宙弯曲，曲率为负，并且向外无限延展，没有边界。闭宇宙模型曲率为负，有边界。根据目前实验测定的结果，现实中宇宙的<strong>临界密度</strong>最接近第一个宇宙模型，即无限大且平坦。但这并不代表宇宙内的时空也是处处平坦的，这只能表明宇宙在大尺度下的普适性质。<br>&emsp;&emsp;目前的宇宙是处在<strong>加速膨胀</strong>的过程中的，2011年的诺贝尔物理学奖表彰的即为证实宇宙正处在加速膨胀进程中的三位物理学家。对于其他几种膨胀，这里简单提一下。如果是<strong>开宇宙</strong>或者<strong>平坦宇宙</strong>，只有无法回归奇点的<strong>减速膨胀</strong>可以满足要求。也就是最终膨胀速度会无限趋近于零，之后宇宙的整体形态会趋于稳定。如果是<strong>闭宇宙</strong>，那么就要求只能是可以回归奇点的<strong>减速膨胀</strong>，也就是膨胀速度减小至零后再反向增加，此时宇宙会逐渐收缩，最终结果可能是<strong>回归奇点</strong>。以上三种宇宙模型所对应的相应减速膨胀只需要正常的<strong>正压物质</strong>就够了。而如果是匀速膨胀或者加速膨胀，三种宇宙模型均可满足要求，但是都需要<strong>负压物质</strong>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;美丽有两种：&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;一是深刻又动人的方程，&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;一是你泛着倦意淡淡的笑容。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;——未名bbs ukim《Heroes in </summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://miorebo.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>抽象与实在</title>
+    <link href="https://miorebo.github.io/2024/04/04/%E6%95%B0%E5%AD%A6%E6%9D%82%E8%B0%88/"/>
+    <id>https://miorebo.github.io/2024/04/04/%E6%95%B0%E5%AD%A6%E6%9D%82%E8%B0%88/</id>
+    <published>2024-04-04T13:45:04.000Z</published>
+    <updated>2024-04-05T09:20:29.526Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>“学习数学应该习惯抽象，思考不应依赖具体例子”</strong></p></blockquote><p>&emsp;&emsp;上述文字源于代数几何先驱格罗滕迪克的数学观念。乍一看，这确有悖于我们原本的学习观念，仍记得中学时老师不断强调数形结合，讲求实例。因为实例是化抽象为具体的结果，也是理解理论的基石。但同时，数学的抽象也不失为一种美，这也是区别数学与古典自然科学的一方面。简单来说，就是坚持统一性与牺牲部分统一性以适应现实世界的区别。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“学习数学应该习惯抽象，思考不应依赖具体例子”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;上述文字源于代数几何先驱格罗滕迪克的数学观念。乍一看，这确有悖于我们原本的学习观念，仍记得中学时老师</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://miorebo.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="数学" scheme="https://miorebo.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+</feed>
